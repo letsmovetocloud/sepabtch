@@ -16,7 +16,7 @@ provider "aws" {
 }
 
 #Resource Block
-resource "aws_instance" "ec2developer1" {
+resource "aws_instance" "newfeatureadded" {
   ami           = "ami-041db4a969fe3eb68" 
 
   instance_type = "t3.medium"
